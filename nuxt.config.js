@@ -33,9 +33,10 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-  './plugins/mixins/user.js',
-  './plugins/mixins/validation.js',
-  './plugins/axios.js'
+    'plugins/mixins/user.js',
+    'plugins/mixins/validation.js',
+    'plugins/axios.js',
+    'store/validations.js',
   ],
   /*
   ** Nuxt.js dev-modules
